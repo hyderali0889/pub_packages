@@ -1,0 +1,20 @@
+name: animated_off_canvas_menu
+description: A lovely sidebar for your next project.
+version: 0.0.1
+homepage: https://github.com/hyderali0889/animated_side_bar
+repository: "https://github.com/hyderali0889/animated_side_bar"
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter: null
