@@ -1,7 +1,7 @@
 name: internet_connectivity_check
-description: A new Flutter package project.
+description: This package provides the info about internet connectiviy.
 version: 0.0.1
-homepage:
+homepage: https://github.com/hyderali0889/pub_packages/tree/master/internet_connectivity_check
 
 environment:
   sdk: '>=3.0.5 <4.0.0'
@@ -10,6 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: ^1.1.0
 
 dev_dependencies:
   flutter_test:

@@ -1,39 +1,39 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Internet Connectivity Check
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+This package provides information about the state of internet connection. A permenant solution to Connectivity check problems arising from enabled wifi or mobile data with no internet Access.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+This package sends a small api get request to an open source api and provides a bool response.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+# Buy me a coffee
+
+If you like the package do consider giving a small cup of coffee for the developer, Thanks.
+
+<a href="https://www.buymeacoffee.com/hyderali32h"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=hyderali32h&button_colour=000000&font_colour=ffffff&font_family=Cookie&outline_colour=ffffff&coffee_colour=ffffff" /></a>
+
 
 ## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+1. Provides info about network connection withour relying on the state of wifi and mobile data.
+2. Uses a very small api to provide results faster.
+3. Very small in size does not effect the size of you application.
+4. Easy to install and use.
+5. Available on all platforms.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+To use this package import the package as
 
-```dart
-const like = 'sample';
+```
+import 'package:internet_connectivity_check/internet_connectivity_check.dart';
 ```
 
-## Additional information
+and then use the provided check Internet Status Function and await the response.
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```
+ bool connectionStatus = await checkInternetStatus();
+```
+
+it is as easy as that a very small package to help in nearly every application
+
+## dependencies
+1. [http](https://pub.dev/packages/http "http")
+2. [jsonplaceholder](http://jsonplaceholder.typicode.com "jsonplaceholder")
